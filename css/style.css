@@ -1,0 +1,198 @@
+.mainTitleColor{
+    color: #1b144d;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Adjust this value to offset any fixed headers or elements */
+  }
+  
+  /* Optional: Apply a smooth transition effect when scrolling */
+  html, body {
+    transition: scroll-behavior 0.3s ease-in-out;
+  }
+
+header{
+    background-image: url('../Assets/banner.jpg');
+    
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+.navImg{
+    width: 70px;
+    height: 70px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white; /* Change to your desired color */
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffc107; /* Change to your desired color */
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:active:focus {
+    color: #ffc107; /* Change to your desired color */
+  }
+
+  
+.navbar-light .navbar-toggler {
+    color: white !important; /* Change to your desired color */
+    background-color: white !important;
+  }
+  .navbar-toggler-icon{
+    color: white !important;
+    background-color: white !important;
+  }
+
+.borderHeader{
+    background-color: #1b144d;
+    border: #ffc107 1px solid;
+    border-radius: 20px;
+    
+}
+
+.sec3Img{
+    width: 20px;
+    height: 20px;
+}
+
+.sec3Title{
+    background-color: #1b144d;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.sec4FirstCol{
+    background-color: rgb(139 193 248 / 15%);
+}
+
+.sec4SecondCol{
+    background-color: #fff7df9e;
+}
+
+section5 div h6{
+    cursor: pointer;
+}
+
+.curserPointer{
+    cursor: pointer;
+}
+
+section5 div .box1{
+    display: none;
+    overflow: hidden;
+}
+
+.sec5OrangeBorder{
+    border-color: #ffc107 !important;
+}
+.sec5OrangeColor{
+    color: #ffc107 !important;
+}
+.sec5BlackColor{
+    color: #000000 !important;
+}
+.sec5BlackBorder{
+    border-color: #000000 !important;
+}
+
+footer{
+    background-image: url('../Assets/banner.jpg');
+}
+
+.footerLogoImg{
+    width: 150px;
+    height: 150px;
+}
+
+
+.marginTopFromPages{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+bodY {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    background: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  .wave {
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(45deg, cyan, #fff);
+    margin: 10px;
+    margin-top: 300px;
+    animation: wave 1s linear infinite;
+    border-radius: 20px;
+  }
+  .wave:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  .wave:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  .wave:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+  .wave:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+  .wave:nth-child(6) {
+    animation-delay: 0.5s;
+  }
+  .wave:nth-child(7) {
+    animation-delay: 0.6s;
+  }
+  .wave:nth-child(8) {
+    animation-delay: 0.7s;
+  }
+  .wave:nth-child(9) {
+    animation-delay: 0.8s;
+  }
+  .wave:nth-child(10) {
+    animation-delay: 0.9s;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
